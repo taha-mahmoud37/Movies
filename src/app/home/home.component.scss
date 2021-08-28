@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden !important;
+}
+
+
+.m-3 
+{
+    cursor: pointer;
+}
+i
+{
+    cursor: pointer;
+}
+
+#callBack
+{
+    display: none;
+}
+
+
+@media (max-width : 576px)
+{
+    .center
+    {
+        margin-left: -40px !important ;
+    }
+}
+
+@media (max-width : 450px)
+{
+    .center
+    {
+        margin-left: -50px !important ;
+
+        .number
+        {
+            margin: 10px !important;
+        }
+    }
+}
